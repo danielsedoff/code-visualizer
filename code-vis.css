@@ -1,0 +1,44 @@
+.generalDark {
+    background-color: #242526;
+    color: #cadebe;
+}
+
+.generalLight {
+    background-color: #cadebe;
+    color: #242526;
+}
+
+.b {
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid #ffffff;
+}
+
+.r {
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid #ff8888;
+}
+
+.g {
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid #66ff66;
+}
+
+.c {
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid #6699aa;
+}
+
+.noselect {
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
