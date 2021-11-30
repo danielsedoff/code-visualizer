@@ -47,12 +47,14 @@ var rollUpDiv = el => {
     }
     if (el.style.height == "1.1em") {
         el.style.height = "";
+        el.className = "g";
        /* el.style.display = "block"; */
         el.childNodes[0].style.display = "";
         el.childNodes[1].style.display = "none"
     } else {
      /*   el.style.display = "inline"; */
         el.style.height = "1.1em";
+        el.className = "y";
         el.childNodes[0].style.display = "none";
         el.childNodes[1].style.display = ""
     }
